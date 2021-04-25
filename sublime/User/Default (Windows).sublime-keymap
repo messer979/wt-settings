@@ -1,0 +1,11 @@
+[
+    {
+    "keys": ["ctrl+/"],
+    "command": "run_macro_file",
+    "args": { "file": "res://Packages/User/XML_line_comments.sublime-macro" },
+    "context": [
+        { "key": "selection_empty", "operator": "equal", "operand": false},
+        { "key": "selector", "operator": "equal", "operand": "text.xml"},
+    ]
+    },
+]

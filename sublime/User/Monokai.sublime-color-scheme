@@ -1,0 +1,44 @@
+{
+    // http://www.sublimetext.com/docs/3/color_schemes.html
+    "variables": {
+        // "green": "#FF0000",
+    },
+    "globals": {
+        // "foreground": "var(green)",
+    },
+    "rules": [
+        {
+            "scope": "string.xml-cust",
+            "foreground": "#f2ff00",
+            
+        },
+        {
+            "scope": "entity.name.tag.open",
+            "foreground": "#1b9100"
+        },
+        {
+            "scope": "entity.name.tag.close",
+            "foreground": "#1b9100"
+        },
+        {
+            "scope": "entity.name.tag.error",
+            "foreground": "#ff0000"
+        },
+        {
+            "scope": "text.xml",
+            "foreground": "#f2f000",
+            "font_style": "bold"
+        },
+        {
+            "scope": "meta.tag.xml",
+            "foreground": "#1b9100",
+            "font_style": "none"
+        },
+        {
+            "scope": "entity.name.tag.localname.xml",
+            "foreground": "#1b9100",
+            "font_style": "none"
+        },
+    ],
+}
+

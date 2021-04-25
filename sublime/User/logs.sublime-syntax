@@ -1,0 +1,27 @@
+%YAML 1.2
+---
+# See http://www.sublimetext.com/docs/3/syntax.html
+file_extensions:
+scope: text
+
+contexts:
+  main:
+    - include: number
+    - include: logLine
+    - include: opentags
+    - include: closetags
+    - include: errorclosetags
+    - include: erroropentags
+
+
+  number:
+
+  logLine:
+     - match: "\\d*<!--.+-->"
+     scope:
+
+
+  comments:
+    # Comments begin with a '//' and finish at the end of the line.
+    - match: "^\\s*<!--.+-->"
+      scope: comment.block.xml

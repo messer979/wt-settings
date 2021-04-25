@@ -1,0 +1,38 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Advanced CSV",
+		"AngularJS",
+		"BracketHighlighter",
+		"CoffeeAngular Syntax",
+		"CompleteXmlTag",
+		"ConvertToUTF8",
+		"CSS3",
+		"Diffy",
+		"Folder2Project",
+		"HTML Boilerplate",
+		"HTMLBeautify",
+		"Indent XML",
+		"JSON Key-Value",
+		"JSON Stringify",
+		"JSX",
+		"Naomi",
+		"naomi-syntax",
+		"Open Folder",
+		"Package Control",
+		"PackageDev",
+		"Python 3",
+		"Python Pretty Print",
+		"Refresh File and Folders",
+		"Request",
+		"SetWindowTitle",
+		"SideBarEnhancements",
+		"SqlBeautifier",
+		"Sync View Scroll",
+		"Terminal"
+	]
+}
