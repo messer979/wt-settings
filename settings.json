@@ -1,54 +1,58 @@
 {
     "$schema": "https://aka.ms/terminal-profiles-schema",
-    // Add custom actions and keybindings to this array.
-    // To unbind a key combination from your defaults.json, set the command to "unbound".
-    // To learn more about actions and keybindings, visit https://aka.ms/terminal-keybindings
     "actions": 
     [
-        // Copy and paste are bound to Ctrl+Shift+C and Ctrl+Shift+V in your defaults.json.
-        // These two lines additionally bind them to Ctrl+C and Ctrl+V.
-        // To learn more about selection, visit https://aka.ms/terminal-selection
         {
             "command": 
             {
                 "action": "copy",
                 "singleLine": false
-            },
+            }
+        },
+        {
+            "command": "unbound",
             "keys": "ctrl+c"
         },
         {
             "command": "paste",
             "keys": "ctrl+v"
         },
-        // Press Ctrl+Shift+F to open the search box
         {
-            "command": "find",
-            "keys": "ctrl+shift+f"
-        },
-        {
-            "command": "closeTab",
-            "keys": "ctrl+w"
-        },
-        {
-            "command": "newTab",
+            "command": 
+            {
+                "action": "newTab"
+            },
             "keys": "ctrl+shift+t"
-        },
-        {
-            "command": "nextTab",
-            "keys": "ctrl+pagedown"
-        },
-        {
-            "command": "prevTab",
-            "keys": "ctrl+pageup"
         },
         {
             "command": "duplicateTab",
             "keys": "ctrl+shift+d"
         },
-        // Press Alt+Shift+D to open a new pane.
-        // - "split": "auto" makes this pane open in the direction that provides the most surface area.
-        // - "splitMode": "duplicate" makes the new pane use the focused pane's profile.
-        // To learn more about panes, visit https://aka.ms/terminal-panes
+        {
+            "command": "find",
+            "keys": "ctrl+shift+f"
+        },
+        {
+            "command": 
+            {
+                "action": "closeTab"
+            },
+            "keys": "ctrl+shift+w"
+        },
+        {
+            "command": 
+            {
+                "action": "nextTab"
+            },
+            "keys": "ctrl+pgdn"
+        },
+        {
+            "command": 
+            {
+                "action": "prevTab"
+            },
+            "keys": "ctrl+pgup"
+        },
         {
             "command": 
             {
@@ -69,20 +73,13 @@
     ],
     "copyFormatting": "none",
     "copyOnSelect": false,
-    "defaultProfile": "{00000000-0000-0000-ba54-000000000002}",
-    "multiLinePasteWarning": false,
+    "defaultProfile": "{2ece5bfe-50ed-5f3a-ab87-5cd4baafed2b}",
     "profiles": 
     {
-        "defaults": 
-        {
-            "acrylicOpacity": 0.80000000000000004,
-            "fontFace": "Consolas",
-            "useAcrylic": true
-        },
+        "defaults": {},
         "list": 
         [
             {
-                "colorScheme": "One Half Dark",
                 "commandline": "powershell.exe",
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
                 "hidden": false,
@@ -102,11 +99,10 @@
             },
             {
                 "colorScheme": "One Half Dark",
-                "commandline": "%PROGRAMFILES%/git/usr/bin/bash.exe -i -l",
-                "guid": "{00000000-0000-0000-ba54-000000000002}",
-                "icon": "%PROGRAMFILES%/Git/mingw64/share/git/git-for-windows.ico",
-                "name": "Bash",
-                "startingDirectory": "%USERPROFILE%"
+                "guid": "{2ece5bfe-50ed-5f3a-ab87-5cd4baafed2b}",
+                "hidden": false,
+                "name": "Git Bash",
+                "source": "Git"
             }
         ]
     },
